@@ -1,10 +1,10 @@
 ﻿//Максимальное число из 3х
 Console.Clear();
-Console.Write("Введдите 1-ю цифру: ");
+Console.Write("Введдите 1-ю число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введдите 2-ю цифру: ");
+Console.Write("Введдите 2-ю число: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введдите 3-ю цифру: ");
+Console.Write("Введдите 3-ю число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 if (n >= max)
