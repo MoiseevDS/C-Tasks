@@ -32,7 +32,7 @@ for (int i = 1; i < matrix.GetLength(0); i++)
     }
 }
 
-Console.WriteLine($"\n{minSumLine + 1} - строкa с наименьшей суммой {sumLine} элементов ");
+Console.WriteLine($"\n{minSumLine + 1} - строкa с наименьшей суммой элементов {sumLine} ");
 
 
 int SumLineElements(int[,] matrix, int i)
@@ -45,15 +45,3 @@ int SumLineElements(int[,] matrix, int i)
     return sumLine;
 }
 
-
-void WriteMatrix(int[,] matrix)
-{
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write(matrix[i, j] + " ");
-        }
-        Console.WriteLine();
-    }
-}
